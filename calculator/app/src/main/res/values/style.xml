@@ -1,0 +1,78 @@
+<resources>
+    <!-- Theme for the Calculator Layout -->
+    <style name="CalcTheme">
+        <item name="android:background">#212121</item> <!-- Dark background -->
+    </style>
+
+    <!-- Style for the Calculator Display (EditText) -->
+    <style name="DisplayStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">85dp</item>
+        <item name="android:textSize">56sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#424242</item> <!-- Dark Gray -->
+        <item name="android:textAlignment">textEnd</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <!-- Style for Number Buttons (0-9) -->
+    <style name="CalcButton">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:backgroundTint">#616161</item> <!-- Gray -->
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_margin">5dp</item>
+
+    </style>
+
+    <!-- Style for Operator Buttons (+, -, *, /, =) -->
+    <style name="OperatorButton">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:backgroundTint">#FF9800</item> <!-- Orange -->
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_margin">5dp</item>
+
+    </style>
+
+    <!-- Style for Special Buttons (CLEAR, DELETE) -->
+    <style name="SpecialButton">
+        <item name="android:layout_width">180dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:backgroundTint">#D32F2F</item> <!-- Red -->
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_margin">5dp</item>
+
+    </style>
+
+    <!-- Style for the Decimal Button (.) -->
+    <style name="DecimalButton">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:backgroundTint">#4CAF50</item> <!-- Green -->
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_margin">5dp</item>
+
+    </style>
+
+    <!-- Style for the Equals Button (=) -->
+    <style name="EqualButton">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:backgroundTint">#00BCD4</item> <!-- Cyan -->
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_margin">5dp</item>
+
+    </style>
+</resources>
